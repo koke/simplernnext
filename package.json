@@ -5,7 +5,8 @@
   "scripts": {
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "haul": "haul start"
   },
   "dependencies": {
     "react": "16.8.6",
@@ -14,6 +15,8 @@
   "devDependencies": {
     "@babel/core": "^7.5.0",
     "@babel/runtime": "^7.5.0",
+    "@haul-bundler/cli": "^0.6.0",
+    "@haul-bundler/preset-0.59": "^0.6.1",
     "@react-native-community/eslint-config": "^0.0.5",
     "babel-jest": "^24.8.0",
     "eslint": "^6.0.1",
